@@ -6,6 +6,7 @@ This is a plugin sample of neovim.
 
 - User configuration and plugin configuration are combined.
 - The configuration can be updated directly without restarting neovim.
+- The function of this plugin is to modify the color and style of neovim.
 
 ---
 
@@ -18,7 +19,7 @@ return {
   {
     "Sidney-Tan/PluginSample",
     opts = {
-      color = "black"
+      color = "black",
     },
   },
 }
