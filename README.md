@@ -18,6 +18,7 @@ This is a plugin sample of neovim.
 return {
   {
     "Sidney-Tan/PluginSample",
+    evnet = "VeryLazy",
     opts = {
       color = "black",
     },
